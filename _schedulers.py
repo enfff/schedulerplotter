@@ -1,5 +1,5 @@
 import seaborn; seaborn.set_style("darkgrid")
-from ._scheduler_parent import Scheduler
+from _scheduler_parent import Scheduler
 import ipywidgets as widgets
 import torch
 

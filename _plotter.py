@@ -1,6 +1,6 @@
-from IPython.display import clear_output
+from IPython.display import clear_output, display
 import ipywidgets as widgets
-from ._schedulers import *
+from _schedulers import *
 
 class Plotter:
     def __init__(self):
